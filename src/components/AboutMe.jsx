@@ -36,12 +36,12 @@ export default function AboutMe() {
               <Container style={{textAlign:"left", justifyContent:"center"}}>
 
                 {/* <p>{bio}</p> */}
-                <p>❐ Work as Software development at IT company (Japan)</p>
-                <p>❐ Annul Income : As a Junior 22Lakh+</p>
-                <p>❐ Study : Software Engineering in (Japan)</p>
-                <p>❐ Hometown : Narayanganj, Bandar</p>
-                <p>❐ Lives in Tokyo</p>
-                <p>{moreInfo}& </p>
+                <p style={{fontSize: "17px", fontStyle:"italic"}}>❐ Work as Software development at IT company (Japan)</p>
+                <p style={{fontSize: "17px", fontStyle:"italic"}}>❐ Annul Income : As a Junior 22Lakh+</p>
+                <p style={{fontSize: "17px", fontStyle:"italic"}}>❐ Study : Software Engineering in (Japan)</p>
+                <p style={{fontSize: "17px", fontStyle:"italic"}}>❐ Hometown : Narayanganj, Bandar</p>
+                <p style={{fontSize: "17px", fontStyle:"italic"}}>❐ Lives in Tokyo</p>
+                <p style={{fontSize: "17px", fontStyle:"italic"}}>{moreInfo}& </p>
               </Container>
             </Col>
             {/* <Col className="d-none d-md-block text-center">

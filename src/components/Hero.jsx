@@ -17,7 +17,7 @@ import SocialLinks from "./SocialLinks";
 const StyledHero = styled.header`
   position: relative;
   display: grid;
-  place-items: center;
+  // place-items: center;
   max-width: 1920px;
   margin: 0 auto;
   min-height: calc(100vh - var(--nav-height));
@@ -88,9 +88,9 @@ export default function Hero() {
   return (
     <StyledHero>
       <Container>
-        <Row className="align-items-center text-center">
-          <Col>
-            <h1 className="mb-3 display-3 title">{name}</h1>
+        <Row className=" text-center" style={{paddingTop: "50px"}}>
+          {/* <Col> */}
+            {/* <h1 className="mb-0 display-3 title">{name}</h1> */}
             <h1>Hi!</h1>
             <h2>I am Imam</h2>
             <h3>Software Engineer(Japan)</h3>
@@ -102,7 +102,7 @@ export default function Hero() {
               className="w-75 mx-auto"
               />
             </div>
-          </Col>
+          {/* </Col> */}
           {/* <Col className="d-none d-md-block">
             <img
               src={Logo}
