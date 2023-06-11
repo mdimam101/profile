@@ -87,8 +87,8 @@ export default function App() {
           </Element>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/All-Projects" element={<AllProjects />} />
-            <Route path="*" element={<NotFound />} />
+            {/* <Route path="/All-Projects" element={<AllProjects />} />
+            <Route path="*" element={<NotFound />} /> */}
           </Routes>
         </ThemeProvider>
       </HashRouter>

@@ -20,7 +20,9 @@ export const fetchGitHubReops = createAsyncThunk(
         }
         return res;
       });
+      console.log(response);
       const data = await response.json();
+      console.log(data);
       return data;
     } catch (err) {
       return rejectWithValue(

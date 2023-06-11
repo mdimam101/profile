@@ -22,6 +22,7 @@ export default function ContactForm() {
         "Content-Type": "application/json",
       },
     });
+    console.log(response);
     return response;
   }
 

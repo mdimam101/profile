@@ -91,8 +91,9 @@ export default function Hero() {
         <Row className="align-items-center text-center">
           <Col>
             <h1 className="mb-3 display-3 title">{name}</h1>
-            <h2>Hi!</h2>
+            <h1>Hi!</h1>
             <h2>I am Imam</h2>
+            <h3>Software Engineer(Japan)</h3>
             <div className="d-flex align-items-center justify-content-center">
               {/* <SocialLinks /> */}
               <img 

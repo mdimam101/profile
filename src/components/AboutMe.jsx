@@ -27,18 +27,24 @@ export default function AboutMe() {
         <Container>
           <Container className="d-flex">
             <Title>
-              <h2>About Me</h2>
+              <h2>Overview</h2>
               <div className="underline"></div>
             </Title>
           </Container>
           <Row className="align-items-center mt-5">
-            <Col className="d-flex flex-column text-center">
-              <Container>
-                <p>{bio}</p>
-                {moreInfo && <p>{moreInfo}</p>}
+            <Col className="text-center">
+              <Container style={{textAlign:"left", justifyContent:"center"}}>
+
+                {/* <p>{bio}</p> */}
+                <p>❐ Work as Software development at IT company (Japan)</p>
+                <p>❐ Annul Income : As a Junior 22Lakh+</p>
+                <p>❐ Study : Software Engineering in (Japan)</p>
+                <p>❐ Hometown : Narayanganj, Bandar</p>
+                <p>❐ Lives in Tokyo</p>
+                <p>{moreInfo}& </p>
               </Container>
             </Col>
-            <Col className="d-none d-md-block text-center">
+            {/* <Col className="d-none d-md-block text-center">
               <img
                 src={avatar_url}
                 alt="GitHub Avatar"
@@ -46,7 +52,7 @@ export default function AboutMe() {
                 className="mx-auto rounded-circle"
                 style={{ width: "15rem", height: "15rem" }}
               />
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </StyledAboutMe>
