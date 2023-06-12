@@ -48,6 +48,8 @@ export default function ContactForm() {
       setIsProcessing(true);
       try {
         const response = await postData(data);
+        // const response = data
+        
         if (!response.ok) {
           throw new Error(
             `${response.status} ${response.statusText}, check formspreeUrl in data.js`
@@ -78,11 +80,11 @@ export default function ContactForm() {
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className="mx-auto mb-3 form-group" controlId="email">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Phone Number Or Email address</Form.Label>
           <Form.Control
-            required
+            // required
             pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-            placeholder="someone@something.com"
+            placeholder="0171234567"
           />
           <Form.Control.Feedback type="invalid">
             <h5>Please enter a valid email.</h5>

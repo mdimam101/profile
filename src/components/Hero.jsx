@@ -65,7 +65,7 @@ const StyledHero = styled.header`
     &::before {
       background: ${({ theme }) =>
         theme.name === "light"
-          ? `url(${Light}) top center fixed no-repeat`
+          ? `url(${Dark}) top center fixed no-repeat`
           : `url(${Dark}) top center fixed no-repeat`};
       background-size: 100vw auto;
     }
@@ -75,7 +75,7 @@ const StyledHero = styled.header`
     &::before {
       background: ${({ theme }) =>
         theme.name === "light"
-          ? `url(${Light}) center center fixed no-repeat`
+          ? `url(${Dark}) top center fixed no-repeat`
           : `url(${Dark}) center center fixed no-repeat`};
       background-size: cover;
     }
